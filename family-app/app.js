@@ -513,7 +513,7 @@ function pickMimeType() {
 
 async function startRecording() {
   if (!window.isSecureContext || !navigator.mediaDevices || !navigator.mediaDevices.getUserMedia || !window.MediaRecorder) {
-    setVoiceError('Recording needs the app opened from its https:// web address (in Chrome or Safari).');
+    setVoiceError('Recording isn't available in this browser. Open the app from its https:// web address, or use the tablet app version.');
     return;
   }
   stopPreview();
