@@ -58,6 +58,13 @@ python3 -m http.server 8000
 - `sw.js`: offline caching. **Bump `CACHE` (e.g. `family-app-v2`) when you change files**, so tablets pick up the update.
 - `manifest.webmanifest`, `icons/`: install-to-home-screen settings
 
+## Project status / open items
+
+- [x] Tablet: Amazon Fire, already owned.
+- [ ] Fire model and Fire OS version: *TBD, to be checked on the tablet* (Settings → Device Options → System Updates / About Fire Tablet). This decides how option B is built and installed.
+- [ ] Host the app at an `https://` address.
+- [ ] On the Fire, in the Amazon Kids profile: does **● Record** work in the kids' browser? (Option A vs. B.)
+
 ## Ideas for next modules
 
 1. First words and animals: real photos, your voice saying the word and the sound.
